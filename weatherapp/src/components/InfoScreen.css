@@ -1,13 +1,13 @@
 .infoscreen {
   width: 350px;
-  height: 560px;
+  height: 600px;
   background-image: url("../assets/background.png");
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 30px;
-  border-radius: 15px;
+  border-radius: 18px;
 }
 
 .bottompart {
