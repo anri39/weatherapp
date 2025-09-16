@@ -1,0 +1,41 @@
+.infoscreen {
+  width: 350px;
+  height: 560px;
+  background-image: url("../assets/background.png");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 30px;
+  border-radius: 15px;
+}
+
+.bottompart {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.toppart {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.toppart h1 {
+  margin: 0;
+}
+
+.toppart p {
+  margin: 0;
+}
+
+.bottompart h1 {
+  margin: 0;
+}
+
+.bottompart p {
+  margin: 0;
+}
