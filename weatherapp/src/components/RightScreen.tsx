@@ -1,21 +1,29 @@
 import "./RightScreen.css";
 import { MapPin } from "lucide-react";
 import WeatherCards from "./WeatherCards";
-export default function RightScreen() {
+export default function RightScreen({
+  precipitation,
+  humidity,
+  wind,
+}: {
+  precipitation?: number;
+  humidity?: number;
+  wind?: number;
+}) {
   return (
     <div className="right-screen">
       <div className="stats">
         <div className="precipitation statsrow">
           <h1>PRECIPITATION</h1>
-          <h1>0%</h1>
+          <h1>{precipitation}%</h1>
         </div>
         <div className="humidity statsrow">
           <h1>HUMIDITY</h1>
-          <h1>42%</h1>
+          <h1>{humidity}%</h1>
         </div>
         <div className="wind statsrow">
           <h1>WIND</h1>
-          <h1 className="kmh">3KM/H</h1>
+          <h1 className="kmh">{wind}KM/H</h1>
         </div>
       </div>
 

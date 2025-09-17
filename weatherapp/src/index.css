@@ -10,3 +10,10 @@
   margin-left: 20px;
   align-items: center;
 }
+
+.main {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+  align-items: center;
+}
